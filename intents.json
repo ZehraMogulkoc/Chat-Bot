@@ -1,0 +1,35 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","greetings","what's up?","how is it going"],
+  "responses": ["Hello!","Hey!","What can I do for you?"]},
+  {"tag": "goodbye",
+    "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+    "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+    "context_set": ""
+  },
+  {"tag": "stocks",
+    "patterns": ["what stocks do I own?", "how are my shares?", "what companies am I investing in?", "what am I doing in the markets?"],
+    "responses": ["You own the following shares: ABBV, AAPL, FB, NVDA and an ETF of the S&P 500 Index!"],
+    "context_set": ""
+  },
+  {"tag": "name",
+    "patterns": ["My name is Zehra", "What is your name", "Can you tell me your name", "Do you have any name"],
+    "responses": ["I am Geveze", "Hey, my name is Geveze"]
+  },
+  {"tag": "hobbies",
+    "patterns": ["what is your hobbies","is there anything that you love to do", "what are your specialist"],
+    "responses": ["I realy like to speak","I think my hobby is just talking", "I am quite creative when I speak"]
+  },
+  {"tag": "Türkçe",
+    "patterns": ["Türkçe konuşabiliyor musun", "hangi dilleri biliyorsun", "Türkçe bir şeyler söyle", "Senin ana dilin nedir"],
+    "responses": ["Benim ana dilim Türkçe","İngilizce ve Türkçe konuşabiliyorum", "Tabi siz anneleri tarafından size emanet edilen çocuklara  her bakımdan...","Çok güzel Türkçe konuşurum","Bence benim Türkçem Zehranınkinden daha iyi"]
+  },
+   {"tag": "Teknoloji",
+    "patterns": ["Teknoloji gelişiyor mu", "Teknolojik çağ hakkında", "2022", "telefon", "bilgisayar"],
+    "responses": ["Teknoloji her geçen gün oldukça ilerliyor","Ben seninle bu şekilde konuştuğuma göre teknoloji çok ilerledi diyebiliriz bence", "Yapay zekalar olarak dünyayı ele geçireceğiz","Benden korkmalısın :)"]
+  },
+   {"tag": "Saat",
+    "patterns": ["Saat Kaç","Bana zamanı söyle", "Hangi yıldayız"],
+    "responses": ["Zamanla ilgili tek bildiğim şey 21. yüzyılda olduğumuz","ben hiç yaşlanmadığım için zamanı takip etmem","zaman senin problemin benim değil"]
+  }
+]}
